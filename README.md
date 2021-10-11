@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/46NdVfE.png" width="200px" height="200px"></img>
 </div>
 
-## 🖼️ Imager
+# Imager
 
 ## 👨‍💻 Tecnologies
 
