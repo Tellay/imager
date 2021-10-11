@@ -28,7 +28,7 @@
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/Tellay/memories.git && cd memories
+$ git clone https://github.com/Tellay/imager.git && cd imager
 ```
 
 **Follow the steps below**
@@ -37,7 +37,10 @@ $ git clone https://github.com/Tellay/memories.git && cd memories
 # Install the dependencies at in the two folders
 $ yarn
 
-# Run the web server in client folder
+# Enter in client page and run it with:
+$ yarn dev
+
+# Enter in server page and run it with:
 $ yarn dev
 ```
 
