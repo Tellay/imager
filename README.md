@@ -4,6 +4,8 @@
 
 # Imager
 
+<img src="https://i.imgur.com/8TR7Ei7.gif"></img>
+
 ## 👨‍💻 Tecnologies
 
 <div align="center">
