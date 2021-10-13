@@ -9,15 +9,6 @@
 - With this site you can upload and use images of the easiest ways.
 - [Preview clicking here...](https://i.imgur.com/8TR7Ei7.gif)
 
-## 👨‍💻 Tecnologies
-
-<div style="display:flex">
-  <a href="https://nodejs.org/en/">Node.js</a>
-  - <a href="https://reactjs.org">React</a>
-  - <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">JS</a>
-  - <a href="https://www.mongodb.com">MongoDB</a>
-</div>
-
 ## 📁 Requirements
 
 - You need to install both [Node.js](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/) to run this project.
@@ -33,6 +24,13 @@ yarn install
 ```sh
 yarn dev
 ```
+
+## 👨‍💻 Tecnologies
+
+- [Node.js](https://nodejs.org/en/)
+- [ReactJS](https://reactjs.org)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [MongoDB](https://www.mongodb.com)
 
 ## 💡 Insipiration
 
