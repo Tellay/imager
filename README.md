@@ -2,46 +2,43 @@
   <img src="https://i.imgur.com/YBKEwaO.png" width="150px" height="150px"></img>
 </div>
 
-# Imager
+<h1 align="center">Imager</h1>
 
-- With this site you can upload and use images of the easiest ways. I based myself on lightshot.
+## 📖 About
 
-<img src="https://i.imgur.com/8TR7Ei7.gif"></img>
+- With this site you can upload and use images of the easiest ways.
+- [Preview clicking here...](https://i.imgur.com/8TR7Ei7.gif)
 
 ## 👨‍💻 Tecnologies
 
-- [Node.js](https://nodejs.org/en/)
-- [ReactJS](https://reactjs.org)
-- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [MongoDB](https://www.mongodb.com)
+<div style="display:flex">
+  <a href="https://nodejs.org/en/">Node.js</a>
+  - <a href="https://reactjs.org">React</a>
+  - <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">JS</a>
+  - <a href="https://www.mongodb.com">MongoDB</a>
+</div>
 
-## 💻 Getting started
-
-### Requirements
+## 📁 Requirements
 
 - You need to install both [Node.js](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/) to run this project.
 
-**Clone the project and access the folder**
+## 📥 Installing
 
-```bash
-$ git clone https://github.com/Tellay/imager.git && cd imager
+```sh
+yarn install
 ```
 
-**Follow the steps below**
+## 🔥 Usage
 
-```bash
-# Install the dependencies at in the two folders
-$ yarn
-
-# Enter in client page and run it with:
-$ yarn dev
-
-# Enter in server page and run it with:
-$ yarn dev
+```sh
+yarn dev
 ```
 
-The app will be available for access on your browser at `http://localhost:3000`
+## 💡 Insipiration
+
+I was based only on lightshot.
 
 ## 📝 License
 
+Copyright © 2021 [Tellay](https://github.com/tellay).<br/>
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
