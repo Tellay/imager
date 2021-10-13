@@ -72,7 +72,7 @@ function ImageBox() {
         />
 
         <ImageVisualizer 
-          src={imageSource} 
+          imagePreviewSrc={imageSource} 
           resetUsingFile={resetUsingFile}
         />
       </BoxContainer>

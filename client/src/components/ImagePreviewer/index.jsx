@@ -2,11 +2,9 @@ import React, { useState } from 'react';
 
 import { Container, ImageAddIcon, ImagePreview, Overlay, LargeImage, RemoveButton, DeleteIcon } from './styles';
 
-function ImageVisualizer(props) {
+function ImageVisualizer({ imagePreviewSrc, resetUsingFile }) {
 
   const [isPreviewed, setPreviewed] = useState(false);
-  const imagePreviewSource = props.src;
-  const resetUsingFile = props.resetUsingFile;
 
   const handleClick = (e) => {
     setPreviewed(true);
@@ -22,12 +20,12 @@ function ImageVisualizer(props) {
 
   return (
     <Container>
-      { !imagePreviewSource ? (
+      { !imagePreviewSrc ? (
         <ImageAddIcon/>
       ) : (
         <>
           <ImagePreview 
-            src={imagePreviewSource}
+            src={imagePreviewSrc}
             onClick={(e) => handleClick(e)}
           />
 
@@ -42,7 +40,7 @@ function ImageVisualizer(props) {
       { isPreviewed && (
         <Overlay onClick={(e) => handleCloseClick(e)}>
           <LargeImage 
-            src={imagePreviewSource}
+            src={imagePreviewSrc}
           />
         </Overlay>
       )}

@@ -28,8 +28,9 @@ yarn dev
 ## 👨‍💻 Tecnologies
 
 - [Node.js](https://nodejs.org/en/)
-- [ReactJS](https://reactjs.org)
-- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [React](https://reactjs.org)
+- [Express](https://expressjs.com/)
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [MongoDB](https://www.mongodb.com)
 
 ## 💡 Insipiration

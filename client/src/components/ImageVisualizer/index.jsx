@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
 
-import { Container, Image } from './styles';
+import { Container, Image, Title, Description } from './styles';
 
 import axios from "axios";
 
@@ -20,9 +20,14 @@ function ImageVisualizer() {
   }, []);
 
   return (
-    !loading && (
+    imageSource ? (
       <Container>
         <Image src={imageSource} />
+      </Container>
+    ) : (
+      <Container>
+        <Title>Nothing was found!</Title>
+        <Description>Something wrong happened... Try again!</Description>
       </Container>
     )
   )

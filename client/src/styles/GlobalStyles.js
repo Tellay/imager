@@ -12,6 +12,7 @@ export default createGlobalStyle`
         --background: #121212;
         --box: #181818;
         --title: #D4D4D4;
+        --subtitle: #b5b5b5;
         --border: #8257e5;
         --icon: #979797;
         --white: #FFFFFF;
