@@ -8,14 +8,12 @@ import axios from "axios";
 function ImageVisualizer() {
   
   const [imageSource, setImageSource] = useState(undefined);
-  const [loading, setLoading] = useState(true);
   const { id } = useParams();
 
   useEffect(() => {
     axios.get(`http://localhost:3001/${id}`)
     .then((result) => {
       setImageSource(result.data.result.imageSrc);
-      setLoading(false);
     });
   }, []);
 
