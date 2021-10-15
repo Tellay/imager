@@ -13,7 +13,7 @@ export const Container = styled.div`
 
 export const Image = styled.img`
     max-width: 100%;
-    max-height: 95vh;
+    max-height: 90vh;
     border-radius: .15rem;
 `;
 
