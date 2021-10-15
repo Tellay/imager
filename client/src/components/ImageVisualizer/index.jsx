@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
 
-import { Container, Image, Title, Description } from './styles';
+import { Container, Image, Title, Description, Button } from './styles';
 
 import axios from "axios";
 
@@ -26,6 +26,7 @@ function ImageVisualizer() {
       <Container>
         <Title>Nothing was found!</Title>
         <Description>Something wrong happened... Try again!</Description>
+        <Button href="http://localhost:3000">Go back...</Button>
       </Container>
     )
   )

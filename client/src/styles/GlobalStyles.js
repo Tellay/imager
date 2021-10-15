@@ -23,6 +23,8 @@ export default createGlobalStyle`
         --button--focus: rgba(150, 105, 255, .15);
         --button--blocked: #353535;
         --button--copy: #3ea6ff;
+        --button--copy--text--color: #0b1f30;
+        --button--copy--boxshadow: rgba(62, 166, 255, .25);
         --background--shadow: rgba(1, 1, 1, .5);
     }
 

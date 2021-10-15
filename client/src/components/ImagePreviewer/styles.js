@@ -23,7 +23,7 @@ export const ImagePreview = styled.div`
   cursor: pointer;
   background-image: ${props => `url(${props.src})`};
   border-radius: 5px;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   transition: filter 250ms ease-in-out;
