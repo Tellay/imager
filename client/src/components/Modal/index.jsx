@@ -10,14 +10,9 @@ function Modal({ showState, setShowState, generatedId }) {
   const buttonRef = useRef(null);
 
   const handleClick = (e) => {
-    e.preventDefault();
     if(e.target === modalWrapperRef.current || buttonRef.current) {
       setShowState(false);
     }
-  }
-  
-  const handleButtonClick = (e) => {
-    e.preventDefault();
   }
 
   return showState && (
@@ -30,15 +25,21 @@ function Modal({ showState, setShowState, generatedId }) {
         <LinkContainer>{`http://localhost:3000/${generatedId}`}</LinkContainer>
         <ClipboardButton 
           text={`http://localhost:3000/${generatedId}`}
-          onClick={(e) => handleButtonClick(e)}
         >
           <Button
             ref={buttonRef}
-            onClick={(e) => handleClick(e)}
           >
             Click here to copy...
           </Button>
         </ClipboardButton>
+
+        <Button
+          href={`http://localhost:3000/${generatedId}`}
+          target="_blank"
+          ref={buttonRef}
+        >
+          Click here to open image...
+        </Button>
       </BoxContainer>
     </Container>
   )
